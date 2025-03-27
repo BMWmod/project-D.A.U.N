@@ -1,2 +1,4 @@
-# project D.A.U.N
- 
+
+npm run dev
+# or
+pnpm run dev
