@@ -6,13 +6,13 @@ const CardGrid = () => {
     <div className="grid grid-cols-10 sm:grid-cols-5 md:grid-cols-3 gap-30 p-15 w-full">
       <EmployeeCard
         imageSrc="/krotov.png"
-        name="John Doe"
-        title="Сын сатаны"
+        name="Кротов А.М"
+        title="Постоянный председатель СБ КНР"
       />
       <EmployeeCard
         imageSrc="https://via.placeholder.com/150"
-        name="Jane Smith"
-        title="Product Manager"
+        name="Владимир Лысочерт"
+        title="Министр внутренних дел"
       />
       <EmployeeCard
         imageSrc="https://via.placeholder.com/150"
@@ -47,6 +47,11 @@ const CardGrid = () => {
       <EmployeeCard
         imageSrc="https://via.placeholder.com/150"
         name="Noah Anderson"
+        title="Financial Analyst"
+      />
+      <EmployeeCard
+        imageSrc="https://via.placeholder.com/150"
+        name="Noah Anderson 2"
         title="Financial Analyst"
       />
     </div>

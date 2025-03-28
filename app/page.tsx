@@ -29,9 +29,9 @@ export default function Home() {
             </div>
           </div>
           <div className="flex-1">
-            <h1 className="text-2xl font-bold">Министерство внутренних дел</h1>
+            <h1 className="text-2xl font-bold">Органы общественной безопастности</h1>
             <h2 className="text-xl">Комаринской народной республики</h2>
-            <p className="text-sm mt-2">Служим Сатане, Чертям, Аду!</p>
+            <p className="text-sm mt-2">Служим Закону, Народу, Отчизне!</p>
           </div>
           <div className="text-right">
             <p className="text-sm">111111, Комарин ул.</p>
@@ -134,9 +134,9 @@ export default function Home() {
               </video>
             </div>
             <div className="mt-4">
-              <h4 className="font-bold text-gray-800">Обращение Министра внутренних дел</h4>
+              <h4 className="font-bold text-gray-800">Обращение Председателя ООБ</h4>
               <p className="text-gray-600 mt-2">
-                Официальное обращение Министра внутренних дел Комаринской народной республики к гражданам.
+                Официальное обращение Председателя ООБ Комаринской народной республики к гражданам.
               </p>
             </div>
           </div>

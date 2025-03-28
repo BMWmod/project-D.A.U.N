@@ -48,7 +48,7 @@ export default function LoginPage() {
             {/* Emblem SVG */}
             <div className="w-16 h-16 relative">
             <Link href="/">
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <svg viewBox="0 0 200 200" xmlns="/logo.svg">
                   <circle cx="100" cy="100" r="90" fill="#D22730" stroke="#FFD700" strokeWidth="5"/>
                   <path d="M100 20C55.8 20 20 55.8 20 100C20 144.2 55.8 180 100 180C144.2 180 180 144.2 180 100C180 55.8 144.2 20 100 20Z" fill="#FFD700" fillOpacity="0.2"/>
                   <rect x="70" y="60" width="60" height="80" fill="#D22730"/>
@@ -59,7 +59,7 @@ export default function LoginPage() {
             </div>
           </div>
           <div>
-            <h1 className="text-xl font-bold">Министерство внутренних дел Комаринской народной республики</h1>
+            <h1 className="text-xl font-bold">Органы общественной безопастности Комаринской Народной Республики</h1>
             <p className="text-sm mt-1">Служим Закону, Народу, Отчизне!</p>
           </div>
         </div>
@@ -82,6 +82,7 @@ export default function LoginPage() {
                         <path d="M16 16C18.2091 16 20 14.2091 20 12C20 9.79086 18.2091 8 16 8C13.7909 8 12 9.79086 12 12C12 14.2091 13.7909 16 16 16Z" fill="#6B7280"/>
                         <path d="M16 18C12.6863 18 10 20.6863 10 24H22C22 20.6863 19.3137 18 16 18Z" fill="#6B7280"/>
                       </svg>
+                      
                     </div>
                     <div className="flex-1">
                       <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Имя</label>
@@ -119,7 +120,7 @@ export default function LoginPage() {
                     </div>
                   </div>
 
-                  {/* kkwarid Field */}
+                  {/* KKWARID Field */}
                   <div className="flex items-center">
                     <div className="w-8 h-8 mr-4 flex-shrink-0">
                       <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -129,12 +130,12 @@ export default function LoginPage() {
                       </svg>
                     </div>
                     <div className="flex-1">
-                      <label htmlFor="kkwarid" className="block text-sm font-medium text-gray-700 mb-1">Номер kkwarid</label>
+                      <label htmlFor="KKWARID" className="block text-sm font-medium text-gray-700 mb-1">Номер KKWARID</label>
                       <input
                         type="text"
-                        id="kkwarid"
+                        id="KKWARID"
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        placeholder="Введите номер kkwarid"
+                        placeholder="Введите номер KKWARID"
                         required
                       />
                     </div>
