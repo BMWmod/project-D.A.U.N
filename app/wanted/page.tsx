@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { toast, Toaster } from "sonner";
-import CardGrid from "@/components/CardGrid";
+import CardGrid from "@/components/CardGridwanted";
 export default function AdministrationPage() {
 
  

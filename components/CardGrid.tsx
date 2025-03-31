@@ -49,11 +49,6 @@ const CardGrid = () => {
         name="Noah Anderson"
         title="Financial Analyst"
       />
-      <EmployeeCard
-        imageSrc="https://via.placeholder.com/150"
-        name="Noah Anderson 2"
-        title="Financial Analyst"
-      />
     </div>
   );
 };

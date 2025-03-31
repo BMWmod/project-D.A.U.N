@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { toast, Toaster } from "sonner";
 
-export default function LoginPage() {
+export default function Wantedpage() {
   const [name, setName] = useState("");
   
   // Array of forbidden names
@@ -47,14 +47,14 @@ export default function LoginPage() {
           <div className="mr-6">
             {/* Emblem SVG */}
             <div className="w-16 h-16 relative">
-            <Link href="/">
-                <svg viewBox="0 0 200 200" xmlns="/logo.svg">
-                  <circle cx="100" cy="100" r="90" fill="#D22730" stroke="#FFD700" strokeWidth="5"/>
-                  <path d="M100 20C55.8 20 20 55.8 20 100C20 144.2 55.8 180 100 180C144.2 180 180 144.2 180 100C180 55.8 144.2 20 100 20Z" fill="#FFD700" fillOpacity="0.2"/>
-                  <rect x="70" y="60" width="60" height="80" fill="#D22730"/>
-                  <rect x="85" y="50" width="30" height="100" fill="#FFD700"/>
-                  <rect x="50" y="85" width="100" height="30" fill="#FFD700"/>
-                </svg>
+              <Link href="/">
+                <Image 
+                  src="/logo.png" 
+                  alt="Logo" 
+                  width={256} 
+                  height={256} 
+                  className="w-full h-full object-contain"
+                />
               </Link>
             </div>
           </div>

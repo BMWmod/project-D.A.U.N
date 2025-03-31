@@ -18,13 +18,13 @@ export default function Home() {
             {/* Emblem SVG */}
             <div className="w-24 h-24 relative">
               <Link href="/login">
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="100" cy="100" r="90" fill="#D22730" stroke="#FFD700" strokeWidth="5"/>
-                  <path d="M100 20C55.8 20 20 55.8 20 100C20 144.2 55.8 180 100 180C144.2 180 180 144.2 180 100C180 55.8 144.2 20 100 20Z" fill="#FFD700" fillOpacity="0.2"/>
-                  <rect x="70" y="60" width="60" height="80" fill="#D22730"/>
-                  <rect x="85" y="50" width="30" height="100" fill="#FFD700"/>
-                  <rect x="50" y="85" width="100" height="30" fill="#FFD700"/>
-                </svg>
+                <Image 
+                  src="/logo.png" 
+                  alt="Logo" 
+                  width={256} 
+                  height={256} 
+                  className="w-full h-full object-contain"
+                />
               </Link>
             </div>
           </div>
@@ -42,11 +42,13 @@ export default function Home() {
           <div className="ml-6">
             {/* Belarus Coat of Arms */}
             <div className="w-16 h-16 relative">
-              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="50" cy="50" r="45" fill="#FFFFFF" stroke="#D22730" strokeWidth="2"/>
-                <circle cx="50" cy="50" r="40" fill="#D22730"/>
-                <path d="M50 15 L60 40 L85 40 L65 55 L75 80 L50 65 L25 80 L35 55 L15 40 L40 40 Z" fill="#FFFFFF"/>
-              </svg>
+                <Image 
+                  src="/logo.png" 
+                  alt="Logo" 
+                  width={64} 
+                  height={64} 
+                  className="w-full h-full object-contain"
+                />
             </div>
           </div>
         </div>
@@ -91,11 +93,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <Link href="#" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Новости</Link>
+            <Link href="/wanted" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Их розыскивает ООБ</Link>
             <Link href="#" className="py-4 text-gray-800 hover:text-blue-900 font-medium">О министерстве</Link>
             <Link href="#" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Услуги</Link>
             <Link href="#" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Обращения</Link>
-            <Link href="#" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Административные процедуры</Link>
+            <Link href="/military" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Military</Link>
             <Link href="/administration" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Ваш черт лысый</Link>
             <div className="ml-auto flex items-center space-x-4">
               <button className="text-gray-800 hover:text-blue-900">
