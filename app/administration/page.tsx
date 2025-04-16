@@ -21,8 +21,8 @@ export default function AdministrationPage() {
                 <Image 
                   src="/logo.png" 
                   alt="Logo" 
-                  width={64} 
-                  height={64} 
+                  width={512  } 
+                  height={512} 
                   className="w-full h-full object-contain"
                 />
               </Link>
