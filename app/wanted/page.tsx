@@ -7,7 +7,7 @@ import { toast, Toaster } from "sonner";
 import CardGrid from "@/components/CardGridwanted";
 export default function AdministrationPage() {
 
- 
+  
   return (
     <main className="min-h-screen flex flex-col bg-gray-100">
       <Toaster />
@@ -21,16 +21,16 @@ export default function AdministrationPage() {
                 <Image 
                   src="/logo.png" 
                   alt="Logo" 
-                  width={64} 
-                  height={64} 
+                  width={512} 
+                  height={512} 
                   className="w-full h-full object-contain"
                 />
               </Link>
             </div>
           </div>
           <div>
-            <h1 className="text-xl font-bold">Органы общественной безопастности Комаринской Народной Республики</h1>
-            <p className="text-sm mt-1">Служим Закону, Народу, Отчизне!</p>
+            <h1 className="text-xl font-bold">Внимание! Розыск!</h1>
+            <p className="text-sm mt-1">Преступники, пакостники и лысые черти</p>
           </div>
         </div>
       </header>
