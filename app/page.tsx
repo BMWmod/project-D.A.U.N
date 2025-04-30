@@ -95,7 +95,7 @@ export default function Home() {
             </div>
             <Link href="/wanted" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Их розыскивает ООБ</Link>
             <Link href="#" className="py-4 text-gray-800 hover:text-blue-900 font-medium">О министерстве</Link>
-            <Link href="#" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Услуги</Link>
+            <Link href="/services" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Услуги</Link>
             <Link href="#" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Обращения</Link>
             <Link href="/military" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Military</Link>
             <Link href="/administration" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Ваш черт лысый</Link>
