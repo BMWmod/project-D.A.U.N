@@ -1,0 +1,20 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#eee4da" />
+  <rect x="50" y="50" width="60" height="60" rx="5" fill="#edc22e" />
+  <rect x="120" y="50" width="60" height="60" rx="5" fill="#f67c5f" />
+  <rect x="190" y="50" width="60" height="60" rx="5" fill="#f65e3b" />
+  <rect x="260" y="50" width="60" height="60" rx="5" fill="#edcf72" />
+  <rect x="50" y="120" width="60" height="60" rx="5" fill="#edcc61" />
+  <rect x="120" y="120" width="60" height="60" rx="5" fill="#edc850" />
+  <rect x="190" y="120" width="60" height="60" rx="5" fill="#edc53f" />
+  <rect x="260" y="120" width="60" height="60" rx="5" fill="#edc22e" />
+  <text x="80" y="90" font-family="Arial" font-size="24" font-weight="bold" fill="#776e65" text-anchor="middle">2</text>
+  <text x="150" y="90" font-family="Arial" font-size="24" font-weight="bold" fill="#f9f6f2" text-anchor="middle">4</text>
+  <text x="220" y="90" font-family="Arial" font-size="24" font-weight="bold" fill="#f9f6f2" text-anchor="middle">8</text>
+  <text x="290" y="90" font-family="Arial" font-size="24" font-weight="bold" fill="#f9f6f2" text-anchor="middle">16</text>
+  <text x="80" y="160" font-family="Arial" font-size="24" font-weight="bold" fill="#f9f6f2" text-anchor="middle">32</text>
+  <text x="150" y="160" font-family="Arial" font-size="24" font-weight="bold" fill="#f9f6f2" text-anchor="middle">64</text>
+  <text x="220" y="160" font-family="Arial" font-size="24" font-weight="bold" fill="#f9f6f2" text-anchor="middle">128</text>
+  <text x="290" y="160" font-family="Arial" font-size="20" font-weight="bold" fill="#f9f6f2" text-anchor="middle">2048</text>
+  <text x="200" y="220" font-family="Arial" font-size="28" font-weight="bold" fill="#776e65" text-anchor="middle">Игра 2048</text>
+</svg>
