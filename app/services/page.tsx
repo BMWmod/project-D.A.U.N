@@ -5,9 +5,10 @@ import Link from "next/link";
 import Image from "next/image";
 import Game2048 from "@/components/Game2048";
 import SlotMachine from "@/components/SlotMachine";
+import Tetris from "@/components/Tetris";
 
 // Game types
-type GameType = "selection" | "2048" | "slots";
+type GameType = "selection" | "2048" | "slots" | "tetris";
 
 export default function ServicesPage() {
   // Game selection state
@@ -101,7 +102,7 @@ export default function ServicesPage() {
             
             {/* Game Selection Gallery */}
             {currentView === "selection" && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {/* 2048 Game Card */}
                 <div className="border rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
                   <div className="relative h-48 bg-gray-100">
@@ -139,7 +140,7 @@ export default function ServicesPage() {
                     />
                   </div>
                   <div className="p-4">
-                    <h3 className="text-xl font-bold text-blue-900 mb-2">Одноногий Вовчик</h3>
+                    <h3 className="text-xl font-bold text-blue-900 mb-2">Одноногий бандит</h3>
                     <p className="text-gray-700 mb-4">
                       Классический игровой автомат в стиле казино. Крутите барабаны и соберите три одинаковых 
                       символа, чтобы выиграть! Разные символы приносят разные награды. Особые символы, такие как 
@@ -147,6 +148,32 @@ export default function ServicesPage() {
                     </p>
                     <button 
                       onClick={() => setCurrentView("slots")}
+                      className="w-full bg-blue-900 text-white py-2 rounded hover:bg-blue-800 transition-colors"
+                    >
+                      Играть
+                    </button>
+                  </div>
+                </div>
+                
+                {/* Tetris Game Card */}
+                <div className="border rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                  <div className="relative h-48 bg-gray-100">
+                    <Image 
+                      src="/images/games/tetris.svg" 
+                      alt="Tetris Game" 
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-xl font-bold text-blue-900 mb-2">Тетрис</h3>
+                    <p className="text-gray-700 mb-4">
+                      Легендарная игра-головоломка, в которой вы управляете падающими блоками разной формы. 
+                      Выстраивайте блоки в линии, чтобы очищать игровое поле. Используйте стрелки для управления 
+                      и пробел для быстрого падения.
+                    </p>
+                    <button 
+                      onClick={() => setCurrentView("tetris")}
                       className="w-full bg-blue-900 text-white py-2 rounded hover:bg-blue-800 transition-colors"
                     >
                       Играть
@@ -161,6 +188,9 @@ export default function ServicesPage() {
             
             {/* Slot Machine Game */}
             {currentView === "slots" && <SlotMachine />}
+            
+            {/* Tetris Game */}
+            {currentView === "tetris" && <Tetris />}
           </div>
         </div>
       </div>

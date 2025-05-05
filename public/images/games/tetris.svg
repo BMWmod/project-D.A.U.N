@@ -1,0 +1,51 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#000000" />
+  
+  <!-- I Block -->
+  <rect x="50" y="50" width="20" height="20" fill="#00f0f0" stroke="#008888" stroke-width="2" />
+  <rect x="70" y="50" width="20" height="20" fill="#00f0f0" stroke="#008888" stroke-width="2" />
+  <rect x="90" y="50" width="20" height="20" fill="#00f0f0" stroke="#008888" stroke-width="2" />
+  <rect x="110" y="50" width="20" height="20" fill="#00f0f0" stroke="#008888" stroke-width="2" />
+  
+  <!-- J Block -->
+  <rect x="150" y="50" width="20" height="20" fill="#0000f0" stroke="#000088" stroke-width="2" />
+  <rect x="150" y="70" width="20" height="20" fill="#0000f0" stroke="#000088" stroke-width="2" />
+  <rect x="170" y="70" width="20" height="20" fill="#0000f0" stroke="#000088" stroke-width="2" />
+  <rect x="190" y="70" width="20" height="20" fill="#0000f0" stroke="#000088" stroke-width="2" />
+  
+  <!-- L Block -->
+  <rect x="230" y="50" width="20" height="20" fill="#f0a000" stroke="#805000" stroke-width="2" />
+  <rect x="250" y="50" width="20" height="20" fill="#f0a000" stroke="#805000" stroke-width="2" />
+  <rect x="270" y="50" width="20" height="20" fill="#f0a000" stroke="#805000" stroke-width="2" />
+  <rect x="270" y="70" width="20" height="20" fill="#f0a000" stroke="#805000" stroke-width="2" />
+  
+  <!-- O Block -->
+  <rect x="310" y="50" width="20" height="20" fill="#f0f000" stroke="#808000" stroke-width="2" />
+  <rect x="330" y="50" width="20" height="20" fill="#f0f000" stroke="#808000" stroke-width="2" />
+  <rect x="310" y="70" width="20" height="20" fill="#f0f000" stroke="#808000" stroke-width="2" />
+  <rect x="330" y="70" width="20" height="20" fill="#f0f000" stroke="#808000" stroke-width="2" />
+  
+  <!-- S Block -->
+  <rect x="70" y="100" width="20" height="20" fill="#00f000" stroke="#008000" stroke-width="2" />
+  <rect x="90" y="100" width="20" height="20" fill="#00f000" stroke="#008000" stroke-width="2" />
+  <rect x="50" y="120" width="20" height="20" fill="#00f000" stroke="#008000" stroke-width="2" />
+  <rect x="70" y="120" width="20" height="20" fill="#00f000" stroke="#008000" stroke-width="2" />
+  
+  <!-- T Block -->
+  <rect x="170" y="100" width="20" height="20" fill="#a000f0" stroke="#500080" stroke-width="2" />
+  <rect x="150" y="120" width="20" height="20" fill="#a000f0" stroke="#500080" stroke-width="2" />
+  <rect x="170" y="120" width="20" height="20" fill="#a000f0" stroke="#500080" stroke-width="2" />
+  <rect x="190" y="120" width="20" height="20" fill="#a000f0" stroke="#500080" stroke-width="2" />
+  
+  <!-- Z Block -->
+  <rect x="250" y="100" width="20" height="20" fill="#f00000" stroke="#800000" stroke-width="2" />
+  <rect x="270" y="100" width="20" height="20" fill="#f00000" stroke="#800000" stroke-width="2" />
+  <rect x="270" y="120" width="20" height="20" fill="#f00000" stroke="#800000" stroke-width="2" />
+  <rect x="290" y="120" width="20" height="20" fill="#f00000" stroke="#800000" stroke-width="2" />
+  
+  <!-- Game Board Outline -->
+  <rect x="130" y="150" width="140" height="80" fill="none" stroke="#ffffff" stroke-width="2" />
+  
+  <!-- Title -->
+  <text x="200" y="210" font-family="Arial" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">ТЕТРИС</text>
+</svg>
