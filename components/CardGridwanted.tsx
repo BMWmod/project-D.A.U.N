@@ -9,7 +9,11 @@ const CardGrid = () => {
         name="Секресвин"
         title="Добавил краш в ЭК"
       />
-    
+    <EmployeeCard
+        imageSrc="/wanted_1.png"
+        name="Секресвин 2"
+        title="Добавил краш в ЭК"
+      />
     </div>
   );
 };
