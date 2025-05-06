@@ -9,7 +9,7 @@ export default function Wantedpage() {
   const [name, setName] = useState("");
   
   // Array of forbidden names
-  const forbiddenNames = ["вов","вовка","володя","вовчик", "вова", "владимир", "вован", "кова", "vova", "vladimir", "azovchik", "азовчик", "4308чик", "каштан338", "даун338", "вовчик338", "boва"];
+  const forbiddenNames = ["вов","вовка","володя","вовчик", "вова","в о в ч и к", "вован", "кова", "vova", "vladimir", "azovchik", "азовчик", "4308чик", "каштан338", "даун338", "вовчик338", "boва"];
   
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     let value = e.target.value;
@@ -25,7 +25,7 @@ export default function Wantedpage() {
       // Show toast notification
       toast.error("Такого имени не существует в природе", {
         position: "top-left",
-        duration: 5000,
+        duration: 10000,
       });
       
       // Replace the forbidden word with "Чертила"
