@@ -354,7 +354,7 @@ export default function Tetris() {
 
     // Faster falling speed: base speed is now 500ms instead of 1000ms
     // and decreases more quickly with level
-    const speed = 500 - (level - 1) * 50 > 50 ? 500 - (level - 1) * 50 : 50;
+    const speed = 600 - (level - 1) * 60 > 60 ? 600 - (level - 1) * 50 : 50;
     
     const gameLoop = setInterval(() => {
       moveTetromino(0, 1);
