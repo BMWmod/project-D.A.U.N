@@ -16,13 +16,13 @@ export default function AdministrationPage() {
         <div className="container mx-auto px-4 py-6 flex items-center">
           <div className="mr-6">
             {/* Emblem SVG */}
-            <div className="w-16 h-16 relative">
+            <div className="w-24 h-24 relative">
               <Link href="/">
                 <Image 
                   src="/logo.png" 
                   alt="Logo" 
-                  width={512} 
-                  height={512} 
+                  width={256} 
+                  height={256} 
                   className="w-full h-full object-contain"
                 />
               </Link>

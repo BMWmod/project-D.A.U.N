@@ -53,12 +53,12 @@ export default function ServicesPage() {
           </div>
           <div className="ml-6">
             {/* Logo */}
-            <div className="w-16 h-16 relative">
+            <div className="w-24 h-24 relative">
                 <Image 
                   src="/logo.png" 
                   alt="Logo" 
-                  width={64} 
-                  height={64} 
+                  width={256} 
+                  height={256} 
                   className="w-full h-full object-contain"
                 />
             </div>
@@ -72,7 +72,7 @@ export default function ServicesPage() {
           <div className="flex items-center space-x-6">
             <Link href="/" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Главная</Link>
             <Link href="/wanted" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Их розыскивает ООБ</Link>
-            <Link href="#" className="py-4 text-gray-800 hover:text-blue-900 font-medium">О министерстве</Link>
+            <Link href="/about" className="py-4 text-gray-800 hover:text-blue-900 font-medium">О министерстве</Link>
             <Link href="/services" className="py-4 text-blue-900 font-bold border-b-2 border-blue-900">Услуги</Link>
             <Link href="#" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Обращения</Link>
             <Link href="/military" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Military</Link>

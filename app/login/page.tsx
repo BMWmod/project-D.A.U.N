@@ -9,7 +9,7 @@ export default function Wantedpage() {
   const [name, setName] = useState("");
   
   // Array of forbidden names
-  const forbiddenNames = ["вов","вовка","володя","вовчик", "вова","в о в ч и к", "вован", "кова", "vova", "vladimir", "azovchik", "азовчик", "4308чик", "каштан338", "даун338", "вовчик338", "boва"];
+  const forbiddenNames = ["вов","вовка","володя","вовчик", "вова","в о в ч и к", "вован", "кова", "vova", "azovchik", "азовчик", "4308чик", "каштан338", "даун338", "вовчик338", "boва"];
   
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     let value = e.target.value;
@@ -46,7 +46,7 @@ export default function Wantedpage() {
         <div className="container mx-auto px-4 py-6 flex items-center">
           <div className="mr-6">
             {/* Emblem SVG */}
-            <div className="w-16 h-16 relative">
+            <div className="w-24 h-24 relative">
               <Link href="/">
                 <Image 
                   src="/logo.png" 

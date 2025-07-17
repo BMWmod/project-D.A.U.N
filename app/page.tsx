@@ -76,25 +76,25 @@ export default function Home() {
                         <path d="M100,100 L150,80 L200,70 L250,80 L300,100 L320,150 L310,200 L320,250 L300,300 L250,320 L200,330 L150,320 L100,300 L80,250 L90,200 L80,150 Z" 
                           fill="#EEEEEE" stroke="#CCCCCC" strokeWidth="2"/>
                         <circle cx="200" cy="200" r="10" fill="#666666"/>
-                        <text x="200" y="230" textAnchor="middle" fill="#333333" fontSize="14">Комарин</text>
+                        <text x="200" y="230" textAnchor="middle" fill="#333333" fontSize="24">Комарин</text>
                       </svg>
                     </div>
                   </div>
-                  <h3 className="text-blue-900 font-bold mb-4">МВД Комаринской народной республики</h3>
+                  <h3 className="text-blue-900 font-bold mb-4">ООБ Комаринской народной республики</h3>
                   <ul className="space-y-3">
                     <li><Link href="#" className="text-gray-600 hover:text-blue-900">ГУВД Мингорисполкома</Link></li>
-                    <li><Link href="#" className="text-gray-600 hover:text-blue-900">УВД Брестского облисполкома</Link></li>
+                    {/* <li><Link href="#" className="text-gray-600 hover:text-blue-900">УВД Брестского облисполкома</Link></li>
                     <li><Link href="#" className="text-gray-600 hover:text-blue-900">УВД Витебского облисполкома</Link></li>
                     <li><Link href="#" className="text-gray-600 hover:text-blue-900">УВД Гомельского облисполкома</Link></li>
                     <li><Link href="#" className="text-gray-600 hover:text-blue-900">УВД Гродненского облисполкома</Link></li>
                     <li><Link href="#" className="text-gray-600 hover:text-blue-900">УВД Минского облисполкома</Link></li>
-                    <li><Link href="#" className="text-gray-600 hover:text-blue-900">УВД Могилевского облисполкома</Link></li>
+                    <li><Link href="#" className="text-gray-600 hover:text-blue-900">УВД Могилевского облисполкома</Link></li> */}
                   </ul>
                 </div>
               </div>
             </div>
             <Link href="/wanted" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Их розыскивает ООБ</Link>
-            <Link href="#" className="py-4 text-gray-800 hover:text-blue-900 font-medium">О министерстве</Link>
+            <Link href="/about" className="py-4 text-gray-800 hover:text-blue-900 font-medium">О министерстве</Link>
             <Link href="/services" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Услуги</Link>
             <Link href="#" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Обращения</Link>
             <Link href="/military" className="py-4 text-gray-800 hover:text-blue-900 font-medium">Military</Link>
