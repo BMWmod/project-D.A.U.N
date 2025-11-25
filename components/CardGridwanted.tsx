@@ -7,8 +7,9 @@ const CardGridwanted = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6 w-full">
       <WantedCriminalCard
         imageSrc="/wanted_1.png"
-        name="Секресвин"
+        // name="Секресвин"
         crime="Добавил краш в ЭК"
+        // datebirth=""
         reward="50,000 BYN"
         dangerLevel="low"
         lastSeen="Минск, ул. Ленина"
@@ -29,6 +30,7 @@ const CardGridwanted = () => {
       <WantedCriminalCard
         imageSrc="/wanted_3.png"
         name="Секресвин 2"
+        datebirth="10.01.2001"
         crime="Повторное добавление краша в ЭК"
         reward="75,000 BYN"
         dangerLevel="extreme"
@@ -51,6 +53,7 @@ const CardGridwanted = () => {
       <WantedCriminalCard
         imageSrc="/wanted_1.png"
         name="Виктор З."
+        datebirth="10.01.2001"
         crime="Мошенничество в особо крупных размерах"
         reward="25,000 BYN"
         dangerLevel="high"
@@ -72,6 +75,7 @@ const CardGridwanted = () => {
       <WantedCriminalCard
         imageSrc="/wanted_1.png"
         name="Николай П."
+        datebirth="10.01.2001"
         crime="Кража государственного имущества"
         reward="15,000 BYN"
         dangerLevel="medium"

@@ -19,6 +19,7 @@ import { Badge } from "@/components/ui/badge";
 interface WantedCriminalCardProps {
   imageSrc: string;
   name: string;
+  datebirth: string;
   crime: string;
   reward?: string;
   dangerLevel?: "low" | "medium" | "high" | "extreme";
@@ -29,8 +30,9 @@ interface WantedCriminalCardProps {
 }
 
 const WantedCriminalCard = ({
-  imageSrc,
-  name,
+  imageSrc = "Изображение отсутствует",
+  name = "Имя не известно" ,
+  datebirth = "Дата рождения неизвестна",
   crime,
   reward = "Не указано",
   dangerLevel = "medium",
@@ -68,6 +70,7 @@ const WantedCriminalCard = ({
                 className="w-24 h-24 mb-4 rounded border-2 border-gray-300"
               />
               <h2 className="text-lg font-semibold">{name}</h2>
+              <h2 className="text-lg font-semibold">{datebirth}</h2>
               <p className="text-gray-600 text-sm">{    }</p>
             </div>
           </DialogTrigger>
@@ -78,6 +81,7 @@ const WantedCriminalCard = ({
             <div className="flex justify-between items-start">
               <div>
                 <h4 className="font-semibold text-sm">{name}</h4>
+                <h4 className="font-semibold text-sm">{datebirth}</h4>
                 <p className="text-xs text-gray-600">{crime}</p>
               </div>
               <Badge variant="outline" className={`${dangerColors[dangerLevel]} text-white border-0`}>
@@ -114,6 +118,7 @@ const WantedCriminalCard = ({
                 </Badge>
               </div>
               <div className="space-y-1 text-sm">
+              <p><strong>Дата рождения:</strong> {datebirth}</p>
                 <p><strong>Основное обвинение:</strong> {crime}</p>
                 <p><strong>Вознаграждение:</strong> {reward}</p>
                 <p><strong>Последнее место обнаружения:</strong> {lastSeen}</p>
